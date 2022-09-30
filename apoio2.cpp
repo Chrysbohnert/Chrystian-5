@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     string palavra;
-    cout << "Digite uma palavra: \n";
+    cout << "Diglavra: \n";
     cin >> palavra;
     map<char,int> contarletras;
     for (unsigned int i=0; i<palavra.size(); i++)
